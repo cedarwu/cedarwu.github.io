@@ -1,0 +1,3 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\RasMan\Parameters]
+"ProhibitIPSec"=dword:00000001

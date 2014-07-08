@@ -6,8 +6,6 @@
   <title>Cedar › 归档：2014</title>
   <meta name="author" content="cedar">
   
-  <meta name="description" content="A boring programmer ~">
-  
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -22,33 +20,21 @@
   <link rel="alternate" href="/atom.xml" title="Cedar" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
   
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-5353535-6']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
 </head>
 
 
 <body>
   <header id="header"><div class="meta inner">
   <h1><a href="/">Cedar</a></h1>
-  <h2 id="header-h2"></h2>
+  <h2 id="header-h2">A lovely programmer ~</h2>
   <nav id="main-nav">
     <ul>
       
       <li><a href="/">首页</a></li>
       
-      <li><a href="/archives">文章归档</a></li>
+      <li><a href="/apps">应用</a></li>
       
-      <li><a href="/links">友情链接</a></li>
+      <li><a href="/archives">文章归档</a></li>
       
       <li><a href="/about">关于</a></li>
       
@@ -130,9 +116,6 @@
       <td width='120' align='left'>
         
       </td>
-      <td width='auto' align='center'>
-          <a href="/archives/">文章归档</a>
-      </td>
       <td width='120' align='right'>
         
       </td>
@@ -167,7 +150,29 @@ var disqus_shortname = 'cedarblog';
   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 }());
 
-</script>
 
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '/js/count.js';
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+  })();
+
+(function() {
+  var xmlhttp=null;
+  if (window.XMLHttpRequest) {
+    xmlhttp=new XMLHttpRequest();
+  }
+  else if (window.ActiveXObject) {
+  	xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  if (xmlhttp!=null) {
+  	xmlhttp.open("GET","http://counter.cedar.tk/www",true);
+  	xmlhttp.send();
+  }
+})()
+</script>
 </body>
 </html>

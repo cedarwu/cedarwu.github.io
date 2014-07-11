@@ -4,7 +4,7 @@
   <subtitle><![CDATA[A lovely coder ~]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.cedar.tk/"/>
-  <updated>2014-07-11T17:19:56.207Z</updated>
+  <updated>2014-07-11T17:20:55.562Z</updated>
   <id>http://www.cedar.tk/</id>
   
   <author>
@@ -29,11 +29,11 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Windows开启wifi共享]]></title>
-    <link href="http://www.cedar.tk/2014/07/Windows%E5%BC%80%E5%90%AFwifi%E5%85%B1%E4%BA%AB/"/>
-    <id>http://www.cedar.tk/2014/07/Windows开启wifi共享/</id>
+    <title><![CDATA[windows开启wifi共享]]></title>
+    <link href="http://www.cedar.tk/2014/07/windows%E5%BC%80%E5%90%AFwifi%E5%85%B1%E4%BA%AB/"/>
+    <id>http://www.cedar.tk/2014/07/windows开启wifi共享/</id>
     <published>2014-07-07T17:06:09.000Z</published>
-    <updated>2014-07-11T17:07:26.000Z</updated>
+    <updated>2014-07-11T17:20:46.000Z</updated>
     <content type="html"><![CDATA[<ol>
 <li>管理员身份打开cmd</li>
 <li>允许承载网络并设置网络名称和密码：<br>netsh wlan set hostednetwork mode=allow ssid=cedar key=12345678</li>

@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Cedar › seu bras for linux</title>
+  <meta name="author" content="cedar">
+  
+  <meta name="description" content="本校使用bras连接外网，windows下的bras配置很简单，网络中心提供了详细的配置方法：win7 xp , 而且网络中心也提供了专用的拨号客户端，网址为 http://help.seu.edu.cn/ ,这里也附上一份当前的最新版：Ras_SEU v1.1.3.2。可是在linux下拨bras貌似就不是那么简单的事情了，主要是因为涉及到l2tp协议的问题，下面我提供一些方法可供参考。
+
+bbs的linux版块上有越来越多大神的作品，方便用户进行傻瓜式地安装，比如：http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;amp;id=39537http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;amp;id=32077http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;amp;id=18470">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="seu bras for linux"/>
+  <meta property="og:site_name" content="Cedar"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Cedar" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  
+</head>
+
+
+<body>
+  <header id="header"><div class="meta inner">
+  <h1><a href="/">Cedar</a></h1>
+  <h2 id="header-h2">A lovely coder ~</h2>
+  <nav id="main-nav">
+    <ul>
+      
+      <li><a href="/">首页</a></li>
+      
+      <li><a href="/tags/apps">应用</a></li>
+      
+      <li><a href="/archives">文章归档</a></li>
+      
+      <li><a href="/atom.xml">RSS</a></li>
+      
+      <li><a href="/about">关于</a></li>
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+</div>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title">seu bras for linux</h1>
+  
+
+      
+      <time datetime="2014-07-07T16:40:45.000Z">2014-07-08</time>
+      
+    </header>
+    <div class="entry">
+      
+        <p>本校使用bras连接外网，windows下的bras配置很简单，网络中心提供了详细的配置方法：<a href="http://nic.seu.edu.cn/s/8/t/316/55/b8/info21944.htm" target="_blank" rel="external">win7</a> <a href="http://nic.seu.edu.cn/s/8/t/316/04/85/info1157.htm" target="_blank" rel="external">xp</a> , 而且网络中心也提供了专用的拨号客户端，网址为 <a href="http://help.seu.edu.cn/" target="_blank" rel="external">http://help.seu.edu.cn/</a> ,这里也附上一份当前的最新版：<a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/Ras_SEU.zip" target="_blank" rel="external">Ras_SEU v1.1.3.2</a>。<br>可是在linux下拨bras貌似就不是那么简单的事情了，主要是因为涉及到l2tp协议的问题，下面我提供一些方法可供参考。</p>
+<ol>
+<li>bbs的<a href="http://bbs.seu.edu.cn/bbsdoc.php?board=Linux" target="_blank" rel="external">linux版块</a>上有越来越多大神的作品，方便用户进行傻瓜式地安装，比如：<br><a href="http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=39537" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=39537</a><br><a href="http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=32077" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=32077</a><br><a href="http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=18470" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=18470</a><a id="more"></a></li>
+<li>Network Manager L2TP plugin<br>Ubuntu Installation:<br>sudo apt-add-repository ppa:seriy-pr/network-manager-l2tp<br>sudo apt-get update<br>sudo apt-get install network-manager-l2tp-gnome<br>!!!!!!!!!!!!!!!!!!<br>sudo service xl2tpd stop<br>sudo update-rc.d xl2tpd disable<br>可参考：<a href="http://www.librehat.com/fedora-linux-connection-l2tp-bras-southeast-university-campus-network-guide/" target="_blank" rel="external">Fedora Linux连接l2tp（东南大学Bras校园网）指南</a></li>
+<li>如果以上方法都不能用的话，可以尝试手动编译brasd，源码见：<a href="https://github.com/zcbenz/brasd。" target="_blank" rel="external">https://github.com/zcbenz/brasd。</a></li>
+</ol>
+<p>ps:现在学校已经逐渐放弃bras，改用更加方便的web认证方式，强烈推荐。</p>
+
+      
+    </div>
+    
+    <footer>
+      <div class="alignleft">
+      
+      
+  
+  <div class="tags">
+    <a href="/tags/system/">system</a>, <a href="/tags/linux/">linux</a>
+  </div>
+
+      </div>
+      <div class="clearfix"></div>
+    </footer>
+    
+  </div>
+</article>
+
+
+<section id="comment">
+  
+            <!-- Duoshuo Comment BEGIN -->
+            <div class="ds-thread"></div>
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name:"cedarblog"};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+            </script>
+            <!-- Duoshuo Comment END -->
+      
+  
+</section>
+
+</div></div>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer"><div class="inner"><div class="alignleft">
+  <p>
+  
+    &copy; 2014 cedar
+  
+  </p>
+
+</div>
+<div class="clearfix"></div></div></footer>
+  <script type="text/javascript">
+
+var disqus_shortname = 'cedarblog';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+
+
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '/js/count.js';
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+  })();
+
+</script>
+</body>
+</html>

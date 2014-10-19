@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Cedar › NFC-SIM (SWP) on Nexus 5</title>
+  <meta name="author" content="cedar">
+  
+  <meta name="description" content="作为一名联通的老用户，我一直比较关注联通。突然有一天，我在沃派南京的微信里收到一条广告：手机当卡刷，感觉萌萌哒。这条广告引起了我极大的兴趣，心里想着：期待已久的东西终于来了。于是，我顺利成为南京联通NFC-SIM的首批内测用户。第二天，营业厅通知我去换卡，我带上取卡针，拿着我心爱的Nexus 5去了营业厅，换了卡，重启了手机，打开了NFC，准备充值。这时候问题来了，手机放到充值的机器上显示：未检测到卡片。然后我就开始怀疑是否需要装什么软件，可是当我看到一个个小米、索尼、三星的手机都是换了卡就直接可以充值，我就开始郁闷了，我堂堂Nexus居然会不支持，这是几个意思呀。">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="NFC-SIM (SWP) on Nexus 5"/>
+  <meta property="og:site_name" content="Cedar"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  <link href="/favicon.png" rel="icon">
+  <link rel="alternate" href="/atom.xml" title="Cedar" type="application/atom+xml">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  
+</head>
+
+
+<body>
+  <header id="header"><div class="meta inner">
+  <h1><a href="/">Cedar</a></h1>
+  <h2 id="header-h2">A lovely coder ~</h2>
+  <nav id="main-nav">
+    <ul>
+      
+      <li><a href="/">首页</a></li>
+      
+      <li><a href="/tags/apps">应用</a></li>
+      
+      <li><a href="/archives">文章归档</a></li>
+      
+      <li><a href="/atom.xml">RSS</a></li>
+      
+      <li><a href="/about">关于</a></li>
+      
+    </ul>
+    <div class="clearfix"></div>
+  </nav>
+</div>
+<div class="clearfix"></div>
+</header>
+  <div id="content" class="inner">
+    <div id="main-col" class="alignleft"><div id="wrapper"><article class="post">
+  <div class="post-content">
+    <header>
+      
+  
+    <h1 class="title">NFC-SIM (SWP) on Nexus 5</h1>
+  
+
+      
+      <time datetime="2014-10-19T12:07:07.000Z">2014-10-19</time>
+      
+    </header>
+    <div class="entry">
+      
+        <p>作为一名联通的老用户，我一直比较关注联通。突然有一天，我在沃派南京的微信里收到一条广告：手机当卡刷，感觉萌萌哒。这条广告引起了我极大的兴趣，心里想着：期待已久的东西终于来了。于是，我顺利成为南京联通NFC-SIM的首批内测用户。<br>第二天，营业厅通知我去换卡，我带上取卡针，拿着我心爱的Nexus 5去了营业厅，换了卡，重启了手机，打开了NFC，准备充值。这时候问题来了，手机放到充值的机器上显示：未检测到卡片。然后我就开始怀疑是否需要装什么软件，可是当我看到一个个小米、索尼、三星的手机都是换了卡就直接可以充值，我就开始郁闷了，我堂堂Nexus居然会不支持，这是几个意思呀。<br><a id="more"></a><br>好吧，我不得不求助于Google了，关键词也就是标题中出现的几个词了，其中”SWP”是我在SIM卡上发现的关键词。很快，我找到几个讨论帖，一个是XDA上的帖子：<a href="http://forum.xda-developers.com/google-nexus-5/help/swp-activation-nexus-5-t2535089" target="_blank" rel="external">[Q] SWP activation on Nexus 5 ?</a>，一个是机锋论坛上的帖子：<a href="http://bbs.gfan.com/android-6901533-1-1.html" target="_blank" rel="external">Nexus5的NFC支持北京移动的NFC公交sim卡吗？</a>。后来，我还在机锋论坛上看到一个总结的帖子：<a href="http://bbs.gfan.com/android-7257347-1-1.html" target="_blank" rel="external">nexus4，5 nfc公交刷卡</a>。我仔细看了这些帖子，又另外查阅了部分资料，整理如下。<br>这里用的技术是NFC硬件卡模拟，主要需要两个硬件：NFC芯片和NFC SE(Secure Element)安全芯片。其中，SE可以放在3个物理位置：SIM, Phone 或者 SD。<br>把SE放在SIM卡中就是国内联通移动等用的方法，所用的协议叫做 SWP(<a href="http://en.wikipedia.org/wiki/Single_Wire_Protocol" target="_blank" rel="external">Single Wire Protocol</a>)，这个协议用于NFC和SIM卡之间进行通信。<br>把SE放在Phone中就是指手机本身内置了加密模块，Nexus就是采用的这个方案，据说部分三星手机也用了这个方案。<br>把SE放在SD这种方案用的很少，不多说。<br>于是，主流的NFC方案就产生了两种分歧，一种把SE放在SIM卡中，一种把SE放在手机中。把SE放在SIM卡中又称为UICC(<a href="http://en.wikipedia.org/wiki/Universal_Integrated_Circuit_Card" target="_blank" rel="external">Universal Integrated Circuit Card</a>)，把SE放在手机中又称为HCE(<a href="http://en.wikipedia.org/wiki/Host_card_emulation" target="_blank" rel="external">Host card emulation</a>)。<br>Google在Nexus中缺省使用了HCE(据说是为了推广自己的Google Wallet)，禁用了UICC，于是就导致了前面提到的不能用联通NFC-SIM的情况。好吧，那就是想办法禁用HCE，启动UICC喽。幸运的是，Google没有封掉这条路，下面就是详细的修改方法：<br>前提：手机已经root<br>系统：我测试的系统为4.4.4，下面的具体修改方法也都是针对4.4.4的。不过从论坛中的信息来看，4.4.3是完全相同的，4.4.2有些许出入。<br>型号：我测试的Nexus 5为美版(D820)，国际版并未测试，理论上应该是一样的。<br>提醒：修改之前最好先进行备份<br>需要修改的文件有两个:<br>/system/etc/libnfc-brcm.conf:<br>line 78，在开头加#，也就是注释掉这句话，也就是禁用HCE</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="preprocessor">#NFA_MAX_EE_SUPPORTED=0</span>
+</pre></td></tr></table></figure><br>line 91，在开头加#<br><figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="preprocessor">#ACTIVE_SE=0x0</span>
+</pre></td></tr></table></figure><br>line 94，去掉开头的#，也就是启用UICC<br><figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="attribute">ACTIVE_SE</span>=<span class="string">0xF3</span>
+</pre></td></tr></table></figure><br>在文件最后加上3行：<br><figure class="highlight"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">######</span><span class="comment">###
+# Route technologies to UICC
+DEFAULT_ISODEP_ROUTE=0xF3</span>
+</pre></td></tr></table></figure><br>继续修改第二个文件<br>/system/etc/libnfc-brcm-20791b05.conf:<br>line 29，在开头加#<br><figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="preprocessor">#NFA_DM_START_UP_CFG={45:CB:01:01:A5:01:01:CA:17:00:00:00:00:06:00:00:00:00:0F:00:00:00:00:E0:67:35:00:14:01:00:00:10:B5:03:01:02:FF:80:01:01:C9:03:03:0F:AB:5B:01:00:B2:04:E8:03:00:00:CF:02:02:08:B1:06:00:20:00:00:00:12:C2:02:00:C8}</span>
+</pre></td></tr></table></figure><br>line 32，去掉开头的#<br><figure class="highlight"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre><span class="constant">NFA_DM_START_UP_CFG</span>={<span class="number">45</span><span class="symbol">:CB</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:A5</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:CA</span><span class="symbol">:</span><span class="number">17</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">06</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span>0<span class="constant">F:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:E0</span><span class="symbol">:</span><span class="number">67</span><span class="symbol">:</span><span class="number">35</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">14</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">10</span><span class="symbol">:B5</span><span class="symbol">:</span><span class="number">03</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:</span><span class="number">03</span><span class="symbol">:FF</span><span class="symbol">:</span><span class="number">80</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:C9</span><span class="symbol">:</span><span class="number">03</span><span class="symbol">:</span><span class="number">03</span><span class="symbol">:</span>0<span class="constant">F:</span><span class="constant">AB</span><span class="symbol">:</span><span class="number">5</span><span class="constant">B:</span><span class="number">01</span><span class="symbol">:</span><span class="number">02</span><span class="symbol">:B2</span><span class="symbol">:</span><span class="number">04</span><span class="symbol">:E8</span><span class="symbol">:</span><span class="number">03</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:CF</span><span class="symbol">:</span><span class="number">02</span><span class="symbol">:</span><span class="number">02</span><span class="symbol">:</span>08<span class="symbol">:B1</span><span class="symbol">:</span><span class="number">06</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">20</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">00</span><span class="symbol">:</span><span class="number">12</span><span class="symbol">:C2</span><span class="symbol">:</span><span class="number">02</span><span class="symbol">:</span><span class="number">01</span><span class="symbol">:</span><span class="number">88</span>}
+</pre></td></tr></table></figure>
+
+<p>其实这两个配置文件中的注释写得非常清楚，这些配置也都是Google事先保留在这里的。不过，仔细阅读这两个文件的话，就会发现我这里修改的并不完整，还有部分UICC的配置并没有启用，但是这样的配置我用联通的NFC-SIM测试成功了。<br>附上我改好的两个文件：<a href="/files/libnfc-brcm.conf">libnfc-brcm.conf</a>，<a href="/files/libnfc-brcm-20791b05.conf">libnfc-brcm-20791b05.conf</a><br>注意：如果是用改好的文件进行替换的话，记得修改文件的权限为 rw-r-r- ，也就是所有者可读可写，组可读，其他可读。如图：<img src="/img/libnfc-brcm-permission.png" alt=""><br>由于Nexus 5缺省只在屏幕已经解锁的情况下启用NFC，当关屏或者是屏幕未解锁的情况下是刷不了公交卡的，如果需要在关屏或者屏幕未解锁的情况下刷卡的话需要修改系统里NfcNci.apk。我为了省点电，并没有做这个测试，附上原始连接<a href="http://bbs.gfan.com/forum.php?mod=viewthread&amp;tid=7257347&amp;page=23#pid233665712" target="_blank" rel="external">Nexus 5 android 4.4.3 可用的替换文件</a>，有这个需求的可以尝试。<br>好了，这样就改好了，大家拿去公交地铁上测试吧。</p>
+<p>后记：昨天我按照上面所写的改好之后，跑到联通校园营业厅，要求给公交卡充值。然后我把手机放上去，卡机读出来余额为50，瞬间感觉自己萌萌哒~</p>
+<p>最后，感谢论坛以及论坛中喜欢探索的朋友们。</p>
+
+      
+    </div>
+    
+    <footer>
+      <div class="alignleft">
+      
+      
+  
+  <div class="tags">
+    <a href="/tags/android/">android</a>, <a href="/tags/life/">life</a>
+  </div>
+
+      </div>
+      <div class="clearfix"></div>
+    </footer>
+    
+  </div>
+</article>
+
+
+<section id="comment">
+  
+            <!-- Duoshuo Comment BEGIN -->
+            <div class="ds-thread"></div>
+            <script type="text/javascript">
+                var duoshuoQuery = {short_name:"cedarblog"};
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';ds.async = true;
+                    ds.src = 'http://static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+            </script>
+            <!-- Duoshuo Comment END -->
+      
+  
+</section>
+
+</div></div>
+    <div class="clearfix"></div>
+  </div>
+  <footer id="footer"><div class="inner"><div class="alignleft">
+  <p>
+  
+    &copy; 2014 cedar
+  
+  </p>
+
+</div>
+<div class="clearfix"></div></div></footer>
+  <script type="text/javascript">
+
+var disqus_shortname = 'cedarblog';
+(function(){
+  var dsq = document.createElement('script');
+  dsq.type = 'text/javascript';
+  dsq.async = true;
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+}());
+
+
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '/js/count.js';
+  var x = document.getElementsByTagName('script')[0];
+  x.parentNode.insertBefore(s, x);
+  })();
+
+</script>
+</body>
+</html>

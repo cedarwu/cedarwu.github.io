@@ -3,9 +3,9 @@
   <title><![CDATA[Cedar]]></title>
   <subtitle><![CDATA[A lovely coder ~]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://www.cedar.tk/"/>
-  <updated>2014-10-26T08:18:44.395Z</updated>
-  <id>http://www.cedar.tk/</id>
+  <link href="http://cedarwu.me/"/>
+  <updated>2014-10-26T11:39:11.425Z</updated>
+  <id>http://cedarwu.me/</id>
   
   <author>
     <name><![CDATA[cedar]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[NFC-SIM (SWP) on Nexus 5]]></title>
-    <link href="http://www.cedar.tk/2014/10/NFC-SIM-(SWP)-on-Nexus-5/"/>
-    <id>http://www.cedar.tk/2014/10/NFC-SIM-(SWP)-on-Nexus-5/</id>
+    <link href="http://cedarwu.me/2014/10/NFC-SIM-(SWP)-on-Nexus-5/"/>
+    <id>http://cedarwu.me/2014/10/NFC-SIM-(SWP)-on-Nexus-5/</id>
     <published>2014-10-19T12:07:07.000Z</published>
     <updated>2014-10-26T08:18:11.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -63,46 +63,46 @@ DEFAULT_ISODEP_ROUTE=0xF3</span>
 </blockquote>
 <p>作为一名联通的老用户，我一直比较关注联通。突然有一天，我在沃派南京的微信里收到一条广告：手机当卡刷，感觉萌萌哒。这条广告引起了我极大的兴趣，心里想着：期待已久的东西终于来了。于是，我顺利成为南京联通NFC-SIM的首批内测用户。<br>第二天，营业厅通知我去换卡，我带上取卡针，拿着我心爱的Nexus 5去了营业厅，换了卡，重启了手机，打开了NFC，准备充值。这时候问题来了，手机放到充值的机器上显示：未检测到卡片。然后我就开始怀疑是否需要装什么软件，可是当我看到一个个小米、索尼、三星的手机都是换了卡就直接可以充值，我就开始郁闷了，我堂堂Nexus居然会不支持，这是几个意思呀。<br>]]></summary>
     
-      <category term="android" scheme="http://www.cedar.tk/tags/android/"/>
+      <category term="android" scheme="http://cedarwu.me/tags/android/"/>
     
-      <category term="life" scheme="http://www.cedar.tk/tags/life/"/>
+      <category term="life" scheme="http://cedarwu.me/tags/life/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[AutoLogin - Seu Web认证自动登录 for Android]]></title>
-    <link href="http://www.cedar.tk/2014/07/AutoLogin---Seu-Web%E8%AE%A4%E8%AF%81%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95-for-Android/"/>
-    <id>http://www.cedar.tk/2014/07/AutoLogin---Seu-Web认证自动登录-for-Android/</id>
+    <link href="http://cedarwu.me/2014/07/AutoLogin---Seu-Web%E8%AE%A4%E8%AF%81%E8%87%AA%E5%8A%A8%E7%99%BB%E5%BD%95-for-Android/"/>
+    <id>http://cedarwu.me/2014/07/AutoLogin---Seu-Web认证自动登录-for-Android/</id>
     <published>2014-07-12T13:01:33.000Z</published>
     <updated>2014-10-26T06:02:29.000Z</updated>
     <content type="html"><![CDATA[<p>本校正在逐步使用web认证替代原有的bras上网方式。也就是打开指定的页面 <a href="http://w.seu.edu.cn" target="_blank" rel="external">http://w.seu.edu.cn</a> ，输入账号和密码即可以访问外网，不再需要以前复杂的bras拨号过程。<br>本人使用Android手机，每次自动连接到seu-wlan无线网之后，都需要手动打开浏览器进行web认证的登录，略显繁琐。所以写了一个Android应用，当系统连接到seu-wlan之后就自动使用已保存的账号进行登录，方便实用。<br>下载见：<a href="http://autologin.cedarwu.me" target="_blank" rel="external">http://autologin.cedarwu.me</a><br>源码见：<a href="https://github.com/cedarwu/AutoLogin" target="_blank" rel="external">https://github.com/cedarwu/AutoLogin</a><br>讨论见校内bbs：<a href="http://bbs.seu.edu.cn/bbstcon.php?board=Internetwork&amp;gid=6569" target="_blank" rel="external">http://bbs.seu.edu.cn/bbstcon.php?board=Internetwork&amp;gid=6569</a></p>
 ]]></content>
     
     
-      <category term="apps" scheme="http://www.cedar.tk/tags/apps/"/>
+      <category term="apps" scheme="http://cedarwu.me/tags/apps/"/>
     
-      <category term="android" scheme="http://www.cedar.tk/tags/android/"/>
+      <category term="android" scheme="http://cedarwu.me/tags/android/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[东南大学校车时刻表]]></title>
-    <link href="http://www.cedar.tk/2014/07/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%A0%A1%E8%BD%A6%E6%97%B6%E5%88%BB%E8%A1%A8/"/>
-    <id>http://www.cedar.tk/2014/07/东南大学校车时刻表/</id>
+    <link href="http://cedarwu.me/2014/07/%E4%B8%9C%E5%8D%97%E5%A4%A7%E5%AD%A6%E6%A0%A1%E8%BD%A6%E6%97%B6%E5%88%BB%E8%A1%A8/"/>
+    <id>http://cedarwu.me/2014/07/东南大学校车时刻表/</id>
     <published>2014-07-07T17:08:54.000Z</published>
     <updated>2014-07-11T17:23:13.000Z</updated>
     <content type="html"><![CDATA[<p>参见bbs<a href="http://bbs.seu.edu.cn/bbsdoc.php?board=JLHCampus" target="_blank" rel="external">九龙湖校区</a>版块<br>具体链接：<a href="http://bbs.seu.edu.cn/bbscon.php?bid=202&amp;id=187166" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=202&amp;id=187166</a><br>附 2014春学期班车安排表:<br><a id="more"></a><br><img src="/img/校车时刻表-工作日.png" alt=""><br><img src="/img/校车时刻表-节假日.png" alt=""></p>
 ]]></content>
     <summary type="html"><![CDATA[<p>参见bbs<a href="http://bbs.seu.edu.cn/bbsdoc.php?board=JLHCampus" target="_blank" rel="external">九龙湖校区</a>版块<br>具体链接：<a href="http://bbs.seu.edu.cn/bbscon.php?bid=202&amp;id=187166" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=202&amp;id=187166</a><br>附 2014春学期班车安排表:<br>]]></summary>
     
-      <category term="life" scheme="http://www.cedar.tk/tags/life/"/>
+      <category term="life" scheme="http://cedarwu.me/tags/life/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[windows开启wifi共享]]></title>
-    <link href="http://www.cedar.tk/2014/07/windows%E5%BC%80%E5%90%AFwifi%E5%85%B1%E4%BA%AB/"/>
-    <id>http://www.cedar.tk/2014/07/windows开启wifi共享/</id>
+    <link href="http://cedarwu.me/2014/07/windows%E5%BC%80%E5%90%AFwifi%E5%85%B1%E4%BA%AB/"/>
+    <id>http://cedarwu.me/2014/07/windows开启wifi共享/</id>
     <published>2014-07-07T17:06:09.000Z</published>
     <updated>2014-07-11T17:20:46.000Z</updated>
     <content type="html"><![CDATA[<ol>
@@ -123,16 +123,16 @@ DEFAULT_ISODEP_ROUTE=0xF3</span>
 <li>设置共享：<br>网络和共享中心 - 更改适配器设置 - 右键需要共享出去的网络单击属性 - 共享 - 勾选允许其他网络用户通过此计算机的Internet连接来连接 - 选择刚刚出现的虚拟无线网络 - 一路确定</li>
 <li>设置完成后，其他设备可以连接到此wifi]]></summary>
     
-      <category term="system" scheme="http://www.cedar.tk/tags/system/"/>
+      <category term="system" scheme="http://cedarwu.me/tags/system/"/>
     
-      <category term="windows" scheme="http://www.cedar.tk/tags/windows/"/>
+      <category term="windows" scheme="http://cedarwu.me/tags/windows/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[seu bras for linux]]></title>
-    <link href="http://www.cedar.tk/2014/07/seu-bras-for-linux/"/>
-    <id>http://www.cedar.tk/2014/07/seu-bras-for-linux/</id>
+    <link href="http://cedarwu.me/2014/07/seu-bras-for-linux/"/>
+    <id>http://cedarwu.me/2014/07/seu-bras-for-linux/</id>
     <published>2014-07-07T16:40:45.000Z</published>
     <updated>2014-07-11T17:18:13.000Z</updated>
     <content type="html"><![CDATA[<p>本校使用bras连接外网，windows下的bras配置很简单，网络中心提供了详细的配置方法：<a href="http://nic.seu.edu.cn/s/8/t/316/55/b8/info21944.htm" target="_blank" rel="external">win7</a> <a href="http://nic.seu.edu.cn/s/8/t/316/04/85/info1157.htm" target="_blank" rel="external">xp</a> , 而且网络中心也提供了专用的拨号客户端，网址为 <a href="http://help.seu.edu.cn/" target="_blank" rel="external">http://help.seu.edu.cn/</a> ,这里也附上一份当前的最新版：<a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/Ras_SEU.zip" target="_blank" rel="external">Ras_SEU v1.1.3.2</a>。<br>可是在linux下拨bras貌似就不是那么简单的事情了，主要是因为涉及到l2tp协议的问题，下面我提供一些方法可供参考。</p>
@@ -147,46 +147,46 @@ DEFAULT_ISODEP_ROUTE=0xF3</span>
 <ol>
 <li>bbs的<a href="http://bbs.seu.edu.cn/bbsdoc.php?board=Linux" target="_blank" rel="external">linux版块</a>上有越来越多大神的作品，方便用户进行傻瓜式地安装，比如：<br><a href="http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=39537" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=39537</a><br><a href="http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=32077" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=32077</a><br><a href="http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=18470" target="_blank" rel="external">http://bbs.seu.edu.cn/bbscon.php?bid=22&amp;id=18470</a>]]></summary>
     
-      <category term="system" scheme="http://www.cedar.tk/tags/system/"/>
+      <category term="system" scheme="http://cedarwu.me/tags/system/"/>
     
-      <category term="linux" scheme="http://www.cedar.tk/tags/linux/"/>
+      <category term="linux" scheme="http://cedarwu.me/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[windows and office activation]]></title>
-    <link href="http://www.cedar.tk/2014/07/windows-and-office-activation/"/>
-    <id>http://www.cedar.tk/2014/07/windows-and-office-activation/</id>
+    <link href="http://cedarwu.me/2014/07/windows-and-office-activation/"/>
+    <id>http://cedarwu.me/2014/07/windows-and-office-activation/</id>
     <published>2014-07-07T16:29:08.000Z</published>
     <updated>2014-07-11T16:42:31.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/Windows%20Loader%20v2.2.1.zip" target="_blank" rel="external">Windows Loader v2.2.1.zip (1.62M)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/Office%202010%20Toolkit%202.2.3.rar" target="_blank" rel="external">Office 2010 Toolkit 2.2.3.rar (12.1M)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/HEU_KMS_Activator_v7.8.6.rar" target="_blank" rel="external">HEU_KMS_Activator_v7.8.6.rar (3.08M)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/mini-KMS_Activator_v1.051%EF%BC%88for%20Office%20and%20Win7-KMS%20%20Active%EF%BC%89.rar" target="_blank" rel="external">mini-KMS_Activator_v1.051（for Office and Win7-KMS Active）.rar (973K)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/mini-KMS_Activator_v1.31_Office2010_VL_ENG.rar" target="_blank" rel="external">mini-KMS_Activator_v1.051（for Office and Win7-KMS Active）.rar (0.98M)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/KMSAuto%20Portable%20v2.18.rar" target="_blank" rel="external">KMSAuto Portable v2.18.rar (164K)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/KMS_VL_ALL%203.3.2.rar" target="_blank" rel="external">KMS_VL_ALL 3.3.2.rar (133K)</a><br><a href="http://cedarfile-cedarfile.stor.sinaapp.com/Software/%EF%BC%88%E6%94%AF%E6%8C%81EFI%EF%BC%89Windows7%20OEM%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7.rar" target="_blank" rel="external">（支持EFI）Windows7 OEM激活工具.rar (63.7K)</a></p>
 ]]></content>
     
     
-      <category term="system" scheme="http://www.cedar.tk/tags/system/"/>
+      <category term="system" scheme="http://cedarwu.me/tags/system/"/>
     
-      <category term="windows" scheme="http://www.cedar.tk/tags/windows/"/>
+      <category term="windows" scheme="http://cedarwu.me/tags/windows/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[online assembler for minisys32]]></title>
-    <link href="http://www.cedar.tk/2014/07/online-assembler-for-minisys32/"/>
-    <id>http://www.cedar.tk/2014/07/online-assembler-for-minisys32/</id>
+    <link href="http://cedarwu.me/2014/07/online-assembler-for-minisys32/"/>
+    <id>http://cedarwu.me/2014/07/online-assembler-for-minisys32/</id>
     <published>2014-07-07T16:21:55.000Z</published>
     <updated>2014-07-11T16:26:16.000Z</updated>
     <content type="html"><![CDATA[<p><a href="http://asm.cedar.tk" target="_blank" rel="external">http://asm.cedar.tk</a><br>本校计算机系大四上学期有一门课为综合课程设计，主要有四个部分的工作，硬件部分需要完成CPU和接口，软件部分需要完成汇编器和IDE。这个汇编器主要用于处理minisys32的31条基本指令，我写了个IDE和汇编器的在线版，功能很基础，但也可以方便有需要的同学用一下。<br>ps:不知道现在的要求还一不一样~</p>
 ]]></content>
     
     
-      <category term="apps" scheme="http://www.cedar.tk/tags/apps/"/>
+      <category term="apps" scheme="http://cedarwu.me/tags/apps/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[vs2012+ 修改了win8的L2TP/IPSec配置]]></title>
-    <link href="http://www.cedar.tk/2014/07/vs2012+-%E4%BF%AE%E6%94%B9%E4%BA%86win8%E7%9A%84L2TPIPSec%E9%85%8D%E7%BD%AE/"/>
-    <id>http://www.cedar.tk/2014/07/vs2012+-修改了win8的L2TPIPSec配置/</id>
+    <link href="http://cedarwu.me/2014/07/vs2012+-%E4%BF%AE%E6%94%B9%E4%BA%86win8%E7%9A%84L2TPIPSec%E9%85%8D%E7%BD%AE/"/>
+    <id>http://cedarwu.me/2014/07/vs2012+-修改了win8的L2TPIPSec配置/</id>
     <published>2014-07-07T12:13:15.000Z</published>
     <updated>2014-10-26T06:27:27.000Z</updated>
     <content type="html"><![CDATA[<p>学校使用bras访问外网，bras使用的是l2tp协议。刚装上win8的时候，bras使用正常，可是安装vs2012+ 之后bras无法连接，错误789(不确定)。<br>只要修改注册表项，在·HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\Parameters·下添加一项</p>
@@ -197,16 +197,16 @@ DEFAULT_ISODEP_ROUTE=0xF3</span>
 ]]></content>
     
     
-      <category term="system" scheme="http://www.cedar.tk/tags/system/"/>
+      <category term="system" scheme="http://cedarwu.me/tags/system/"/>
     
-      <category term="windows" scheme="http://www.cedar.tk/tags/windows/"/>
+      <category term="windows" scheme="http://cedarwu.me/tags/windows/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello]]></title>
-    <link href="http://www.cedar.tk/2014/07/Hello/"/>
-    <id>http://www.cedar.tk/2014/07/Hello/</id>
+    <link href="http://cedarwu.me/2014/07/Hello/"/>
+    <id>http://cedarwu.me/2014/07/Hello/</id>
     <published>2014-07-07T11:17:42.000Z</published>
     <updated>2014-07-07T16:17:39.000Z</updated>
     <content type="html"><![CDATA[<p>第一篇博客，仅作测试。<br>七月七日，晴~</p>
@@ -215,7 +215,7 @@ DEFAULT_ISODEP_ROUTE=0xF3</span>
 ]]></content>
     
     
-      <category term="life" scheme="http://www.cedar.tk/tags/life/"/>
+      <category term="life" scheme="http://cedarwu.me/tags/life/"/>
     
   </entry>
   
